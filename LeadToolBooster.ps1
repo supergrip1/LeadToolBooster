@@ -16,7 +16,7 @@ Write-Host $count.Count "Lead Tool Prozesse gestartet"
 while ($true)
 {
     $procCount = Get-Process -Name "LFC" | Measure-Object
-    Write-Host $procCount.Count "LeadTool Prozesse noch aktiv"
+    Write-Host (Get-Date) $procCount.Count "LeadTool Prozesse noch aktiv"
     Start-Sleep -Seconds 60
     if ($procCount.Count -lt 1)
     {
