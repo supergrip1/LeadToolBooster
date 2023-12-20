@@ -6,3 +6,7 @@ Dadurch kann eine höhere Ausnutzung des Prozessors und somit eine höhere Gesch
 
 # TODO
 Geschwindigkeitstest / Vergleich zum Original Script
+
+
+# Info
+Erstellt von Jan Vogl @ [med|CREW](https://med-crew.de)
